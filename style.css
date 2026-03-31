@@ -1,0 +1,116 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #222;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      color: #e3350d;
+      font-size: 2.2rem;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      color: #555;
+    }
+
+    .busca {
+      margin-bottom: 30px;
+    }
+
+    .busca input {
+      width: 280px;
+      max-width: 90%;
+      padding: 12px;
+      border: 1px solid #999;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .busca button {
+      padding: 12px 18px;
+      border: none;
+      background-color: #3b4cca;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 8px;
+    }
+
+    .busca button:hover {
+      background-color: #2d3da8;
+    }
+
+    .resultado {
+      background-color: white;
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+      min-height: 250px;
+    }
+
+    .card img {
+      width: 180px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      text-transform: capitalize;
+      color: #e3350d;
+      margin-bottom: 8px;
+      font-size: 2rem;
+    }
+
+    .numero {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 20px;
+      line-height: 1.8;
+    }
+
+    .info strong {
+      color: #3b4cca;
+    }
+
+    .stats {
+      margin-top: 25px;
+      text-align: left;
+    }
+
+    .stats h3 {
+      margin-bottom: 10px;
+      color: #3b4cca;
+    }
+
+    .stat {
+      margin-bottom: 8px;
+    }
+
+    .erro {
+      color: red;
+      font-weight: bold;
+    }
